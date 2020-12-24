@@ -12,7 +12,5 @@ public class BoxRunner {
         Box<Random, String> boxRandom = new Box<Random, String>(new Random(), "hello");
 
         Box<Boolean, Integer> boxBoolean = new Box<Boolean, Integer>(true, 1);
-
-
     }
 }
