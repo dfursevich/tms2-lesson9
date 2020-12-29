@@ -15,5 +15,10 @@ public class GoodRunner {
 
         int index = goods.indexOf(new Good(2));
         System.out.println("index = " + index);
+
+        goods.remove(new Good(2));
+
+        int index2 = goods.indexOf(new Good(2));
+        System.out.println("index2 = " + index2);
     }
 }
